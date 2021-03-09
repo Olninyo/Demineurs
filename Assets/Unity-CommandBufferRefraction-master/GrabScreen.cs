@@ -84,29 +84,29 @@ public class GrabScreen : MonoBehaviour{
         _cBuffer.Clear();
 
         // copy screen into temporary RT (-2 means half the screen size)
-        _cBuffer.GetTemporaryRT(_screenCopyID, -2, -2, 0, _filterMode);
+        _cBuffer.GetTemporaryRT(_screenCopyID, -1, -1, 0, _filterMode);
         _cBuffer.Blit(BuiltinRenderTextureType.CurrentActive, _screenCopyID);
         _cBuffer.SetGlobalTexture(globalNoBlurKey, _screenCopyID);
 
         // get two smaller RTs (-4 means quad the screen size)
-        _cBuffer.GetTemporaryRT(_blurredID, -4, -4, 0, _filterMode);
-        _cBuffer.GetTemporaryRT(_blurredID2, -4, -4, 0, _filterMode);
+        _cBuffer.GetTemporaryRT(_blurredID, -16, -16, 0, _filterMode);
+        _cBuffer.GetTemporaryRT(_blurredID2, -16, -16, 0, _filterMode);
 
         // downsample screen copy into smaller RT, release screen RT
         _cBuffer.Blit(_screenCopyID, _blurredID);
         _cBuffer.ReleaseTemporaryRT(_screenCopyID);
 
         // horizontal blur
-        _cBuffer.SetGlobalVector(offsetsKey, new Vector4(2.0f / Screen.width, 0, 0, 0));
-        _cBuffer.Blit(_blurredID, _blurredID2, _material);
-        // vertical blur
-        _cBuffer.SetGlobalVector(offsetsKey, new Vector4(0, 2.0f / Screen.height, 0, 0));
-        _cBuffer.Blit(_blurredID2, _blurredID, _material);
-        // horizontal blur
         _cBuffer.SetGlobalVector(offsetsKey, new Vector4(4.0f / Screen.width, 0, 0, 0));
         _cBuffer.Blit(_blurredID, _blurredID2, _material);
         // vertical blur
         _cBuffer.SetGlobalVector(offsetsKey, new Vector4(0, 4.0f / Screen.height, 0, 0));
+        _cBuffer.Blit(_blurredID2, _blurredID, _material);
+        // horizontal blur
+        _cBuffer.SetGlobalVector(offsetsKey, new Vector4(64.0f / Screen.width, 0, 0, 0));
+        _cBuffer.Blit(_blurredID, _blurredID2, _material);
+        // vertical blur
+        _cBuffer.SetGlobalVector(offsetsKey, new Vector4(0, 64.0f / Screen.height, 0, 0));
         _cBuffer.Blit(_blurredID2, _blurredID, _material);
 
         _cBuffer.SetGlobalTexture(globalBlurKey, _blurredID);

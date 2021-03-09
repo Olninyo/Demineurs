@@ -45,20 +45,24 @@ Material:
     - _Refraction: -0.2
     - _ToggleSwitch0: 1
     - __dirty: 0
-    - _foamdistance: 1
+    - _bluramount: 0.5
+    - _blurfalloff: 1
+    - _bluroffset: -0.86
+    - _foamdistance: 1.1
     - _foamnoiseamount: 1
     - _foampower: 0
     - _foamspeed: 0.05
     - _foamtiling: 0.19
-    - _foamtilingX: 0.5
+    - _foamtilingX: 1
     - _foamtilingY: 0.25
     - _opacity: 0
     - _refractionIOR: 0.2
     - _refractiondepth: 0.224
-    - _refractionfalloff: 1.3
+    - _refractionfalloff: 0.5
     - _refractionopacity: 0
     - _refractionopacity1: 1
-    - _scatteringdepth: 25
+    - _refractiontint: 1
+    - _scatteringdepth: 20
     - _scatteringfalloff: 5
     - _shallowsopacity: 0
     - _shoreopacity: 0
