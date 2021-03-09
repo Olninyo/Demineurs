@@ -19,6 +19,14 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Texture0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _foamnoise:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -27,21 +35,36 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _wavesnormal:
+        m_Texture: {fileID: 2800000, guid: b8b43c26acee0b94f9fae5c1dbb29d55, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - _ChromaticAberration: 0.1
     - _Gloss: 1
-    - _Refraction: 0.48
+    - _Refraction: -0.2
     - __dirty: 0
-    - _foamdistance: 1
+    - _foamdistance: 0.7
     - _foamnoiseamount: 1
     - _foampower: 0
-    - _foamspeed: 0.3
-    - _foamtiling: 0.2
+    - _foamspeed: 0.05
+    - _foamtiling: 0.19
+    - _foamtilingX: 0.5
+    - _foamtilingY: 0.25
     - _opacity: 0
-    - _waterdepth: 25
+    - _refractionIOR: -0.2
+    - _refractionopacity: 1
+    - _shallowsopacity: 0
+    - _shoretilingY: 0.1
+    - _waterdepth: 10
+    - _wavenormalstrength: 0.25
+    - _wavenormaltile: 25
+    - _wavestrength: 0.025
     m_Colors:
     - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
-    - _deepcolour: {r: 0.14901954, g: 0.29803917, b: 0.16422561, a: 1}
+    - _deepcolour: {r: 0.69882524, g: 0.9811321, b: 0.69882524, a: 1}
     - _foamcolour: {r: 0.8, g: 0.8, b: 0.8, a: 1}
-    - _shallowcolour: {r: 0.6078431, g: 0.8, b: 0.6, a: 1}
+    - _foamtiling: {r: 1, g: 1, b: 1, a: 1}
+    - _shallowcolour: {r: 0.35958424, g: 0.41509432, b: 0.17034532, a: 1}
+    - _shorecolour: {r: 0.7, g: 0.6966981, b: 0.6966981, a: 1}
   m_BuildTextureStacks: []
