@@ -52,19 +52,21 @@ Material:
     - _foamtilingX: 0.5
     - _foamtilingY: 0.25
     - _opacity: 0
-    - _refractionIOR: -0.2
-    - _refractionopacity: 1
+    - _refractionIOR: 0.2
+    - _refractionopacity: 0.044
     - _shallowsopacity: 0
+    - _shoreopacity: 0
     - _shoretilingY: 0.1
-    - _waterdepth: 10
+    - _waterdepth: 45.7
+    - _waterdepthfalloff: 5
     - _wavenormalstrength: 0.25
     - _wavenormaltile: 25
     - _wavestrength: 0.025
     m_Colors:
     - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
-    - _deepcolour: {r: 0.69882524, g: 0.9811321, b: 0.69882524, a: 1}
+    - _deepcolour: {r: 0.15036489, g: 0.2924528, b: 0.15036489, a: 1}
     - _foamcolour: {r: 0.439304, g: 0.617, b: 0.439304, a: 1}
     - _foamtiling: {r: 1, g: 1, b: 1, a: 1}
-    - _shallowcolour: {r: 0.35958424, g: 0.41509432, b: 0.17034532, a: 1}
-    - _shorecolour: {r: 0.7, g: 0.6966981, b: 0.6966981, a: 1}
+    - _shallowcolour: {r: 0.8920336, g: 1, b: 0.514151, a: 1}
+    - _shorecolour: {r: 0.48159504, g: 0.5188679, b: 0.26188144, a: 1}
   m_BuildTextureStacks: []
