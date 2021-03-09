@@ -55,7 +55,7 @@ Material:
     - _opacity: 0
     - _refractionIOR: 0.2
     - _refractiondepth: 0.224
-    - _refractionfalloff: 2
+    - _refractionfalloff: 1.3
     - _refractionopacity: 0
     - _refractionopacity1: 1
     - _scatteringdepth: 25
