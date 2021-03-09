@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: M_Water
   m_Shader: {fileID: 4800000, guid: 59aabcf21a165f842bdc24eb295ae017, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: _TOGGLESWITCH0_ON
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -43,6 +43,7 @@ Material:
     - _ChromaticAberration: 0.1
     - _Gloss: 1
     - _Refraction: -0.2
+    - _ToggleSwitch0: 1
     - __dirty: 0
     - _foamdistance: 1
     - _foamnoiseamount: 1
@@ -53,12 +54,17 @@ Material:
     - _foamtilingY: 0.25
     - _opacity: 0
     - _refractionIOR: 0.2
-    - _refractionopacity: 0.044
+    - _refractiondepth: 0.224
+    - _refractionfalloff: 2
+    - _refractionopacity: 0
+    - _refractionopacity1: 1
+    - _scatteringdepth: 25
+    - _scatteringfalloff: 5
     - _shallowsopacity: 0
     - _shoreopacity: 0
     - _shoretilingY: 0.1
-    - _waterdepth: 45.7
-    - _waterdepthfalloff: 5
+    - _waterdepth: 50
+    - _waterdepthfalloff: 10
     - _wavenormalstrength: 0.25
     - _wavenormaltile: 25
     - _wavestrength: 0.025
@@ -67,6 +73,6 @@ Material:
     - _deepcolour: {r: 0.15036489, g: 0.2924528, b: 0.15036489, a: 1}
     - _foamcolour: {r: 0.439304, g: 0.617, b: 0.439304, a: 1}
     - _foamtiling: {r: 1, g: 1, b: 1, a: 1}
-    - _shallowcolour: {r: 0.8920336, g: 1, b: 0.514151, a: 1}
-    - _shorecolour: {r: 0.48159504, g: 0.5188679, b: 0.26188144, a: 1}
+    - _shallowcolour: {r: 0.67850006, g: 0.6981132, b: 0.43796724, a: 1}
+    - _shorecolour: {r: 0.92619735, g: 1, b: 0.4669811, a: 1}
   m_BuildTextureStacks: []
