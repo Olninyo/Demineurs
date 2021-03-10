@@ -19,6 +19,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Height:
+        m_Texture: {fileID: 2800000, guid: f293baeaf87cdff4687cd0bfb5bc69b5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Texture0:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -41,13 +45,21 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _ChromaticAberration: 0.1
+    - _EdgeLength: 15
     - _Gloss: 1
     - _Refraction: -0.2
+    - _TessMax: 50
+    - _TessMaxDisp: 25
+    - _TessMin: 10
+    - _TessPhongStrength: 0.5
+    - _TessValue: 16
     - _ToggleSwitch0: 1
+    - _UNITY_PASS_SHADOWCASTER: 1
     - __dirty: 0
     - _bluramount: 0.5
     - _blurfalloff: 1
     - _bluroffset: -0.86
+    - _displacementstrength: 0.025
     - _foamdistance: 1.1
     - _foamnoiseamount: 1
     - _foampower: 0
@@ -55,8 +67,11 @@ Material:
     - _foamtiling: 0.19
     - _foamtilingX: 1
     - _foamtilingY: 0.25
+    - _getshadows: 0
+    - _keyword0: 0
     - _opacity: 0
-    - _refractionIOR: 0.2
+    - _receiveshadows: 0
+    - _refractionIOR: 1
     - _refractiondepth: 0.224
     - _refractionfalloff: 0.5
     - _refractionopacity: 0
@@ -67,7 +82,7 @@ Material:
     - _shallowsopacity: 0
     - _shoreopacity: 0
     - _shoretilingY: 0.1
-    - _speed: 0.1
+    - _speed: 0.2
     - _waterdepth: 50
     - _waterdepthfalloff: 10
     - _wavenormalstrength: 1
