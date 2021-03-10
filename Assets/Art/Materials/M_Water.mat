@@ -52,7 +52,7 @@ Material:
     - _TessMaxDisp: 25
     - _TessMin: 50
     - _TessPhongStrength: 0.5
-    - _TessValue: 32
+    - _TessValue: 8
     - _ToggleSwitch0: 1
     - _UNITY_PASS_SHADOWCASTER: 1
     - __dirty: 0
