@@ -48,18 +48,18 @@ Material:
     - _EdgeLength: 15
     - _Gloss: 1
     - _Refraction: -0.2
-    - _TessMax: 50
+    - _TessMax: 120
     - _TessMaxDisp: 25
-    - _TessMin: 10
+    - _TessMin: 50
     - _TessPhongStrength: 0.5
-    - _TessValue: 16
+    - _TessValue: 32
     - _ToggleSwitch0: 1
     - _UNITY_PASS_SHADOWCASTER: 1
     - __dirty: 0
     - _bluramount: 0.5
     - _blurfalloff: 1
     - _bluroffset: -0.86
-    - _displacementstrength: 0.025
+    - _displacementstrength: 0.02
     - _foamdistance: 1.1
     - _foamnoiseamount: 1
     - _foampower: 0

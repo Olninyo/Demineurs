@@ -4,6 +4,7 @@ ShaderImporter:
   externalObjects: {}
   defaultTextures:
   - _wavesnormal: {fileID: 2800000, guid: b8b43c26acee0b94f9fae5c1dbb29d55, type: 3}
+  - _Height: {fileID: 2800000, guid: f293baeaf87cdff4687cd0bfb5bc69b5, type: 3}
   nonModifiableTextures: []
   preprocessorOverride: 0
   userData: 
