@@ -97,10 +97,10 @@ public class GrabScreen : MonoBehaviour{
         _cBuffer.ReleaseTemporaryRT(_screenCopyID);
 
         // horizontal blur
-        _cBuffer.SetGlobalVector(offsetsKey, new Vector4(4.0f / Screen.width, 0, 0, 0));
+        _cBuffer.SetGlobalVector(offsetsKey, new Vector4(8.0f / Screen.width, 0, 0, 0));
         _cBuffer.Blit(_blurredID, _blurredID2, _material);
         // vertical blur
-        _cBuffer.SetGlobalVector(offsetsKey, new Vector4(0, 4.0f / Screen.height, 0, 0));
+        _cBuffer.SetGlobalVector(offsetsKey, new Vector4(0, 8.0f / Screen.height, 0, 0));
         _cBuffer.Blit(_blurredID2, _blurredID, _material);
         // horizontal blur
         _cBuffer.SetGlobalVector(offsetsKey, new Vector4(64.0f / Screen.width, 0, 0, 0));
