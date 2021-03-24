@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Water_Copper
+  m_Shader: {fileID: 4800000, guid: 59aabcf21a165f842bdc24eb295ae017, type: 3}
+  m_ShaderKeywords: _TOGGLESWITCH0_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Height:
+        m_Texture: {fileID: 2800000, guid: f293baeaf87cdff4687cd0bfb5bc69b5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _foamnoise:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _wavesnormal:
+        m_Texture: {fileID: 2800000, guid: b8b43c26acee0b94f9fae5c1dbb29d55, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ChromaticAberration: 0.1
+    - _EdgeLength: 15
+    - _Gloss: 1
+    - _Refraction: -0.2
+    - _TessMax: 120
+    - _TessMaxDisp: 25
+    - _TessMin: 50
+    - _TessPhongStrength: 0.5
+    - _TessValue: 8
+    - _ToggleSwitch0: 1
+    - _UNITY_PASS_SHADOWCASTER: 1
+    - __dirty: 0
+    - _bluramount: 0.978
+    - _blurfalloff: 1
+    - _bluroffset: -0.86
+    - _displacementstrength: 0.01
+    - _foamdistance: 1.1
+    - _foamnoiseamount: 0.435
+    - _foampower: 0
+    - _foamspeed: 0.2
+    - _foamtiling: 0.19
+    - _foamtilingX: 1
+    - _foamtilingY: 0.25
+    - _getshadows: 0
+    - _keyword0: 0
+    - _opacity: 0
+    - _receiveshadows: 0
+    - _refractionIOR: 1
+    - _refractiondepth: 0.224
+    - _refractionfalloff: 0.29
+    - _refractionopacity: 0
+    - _refractionopacity1: 1
+    - _refractiontint: 1
+    - _scatteringdepth: 10.9
+    - _scatteringfalloff: 7.47
+    - _shallowsopacity: 0
+    - _shoreopacity: 0
+    - _shoretilingY: 0.1
+    - _speed: 0.05
+    - _waterdepth: 50
+    - _waterdepthfalloff: 10
+    - _wavenormalstrength: 0.247
+    - _wavenormaltile: 2
+    - _wavestrength: 0.025
+    m_Colors:
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _deepcolour: {r: 0.26415092, g: 0.09509432, b: 0, a: 1}
+    - _foamcolour: {r: 0.5849056, g: 0.42425507, b: 0, a: 1}
+    - _foamtiling: {r: 1, g: 1, b: 1, a: 1}
+    - _shallowcolour: {r: 0.7830189, g: 0.44107056, b: 0.114498034, a: 1}
+    - _shorecolour: {r: 0.92619735, g: 1, b: 0.4669811, a: 1}
+  m_BuildTextureStacks: []
