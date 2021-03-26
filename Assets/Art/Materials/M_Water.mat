@@ -73,11 +73,11 @@ Material:
     - _receiveshadows: 0
     - _refractionIOR: 1
     - _refractiondepth: 0.224
-    - _refractionfalloff: 0.5
+    - _refractionfalloff: 0.05
     - _refractionopacity: 0
     - _refractionopacity1: 1
     - _refractiontint: 1
-    - _scatteringdepth: 20
+    - _scatteringdepth: 15
     - _scatteringfalloff: 5
     - _shallowsopacity: 0
     - _shoreopacity: 0
