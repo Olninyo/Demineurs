@@ -140,14 +140,14 @@ Material:
     - _HeightAlbedoAmount: 0
     - _HeightGradient: 1
     - _HeightGradientOffset: 0.11
-    - _HeightGradientPatternStrength: 0.04
-    - _HeightGradientScale: 2.21
+    - _HeightGradientPatternStrength: 1
+    - _HeightGradientScale: 1
     - _HeightMaskOffset: 0.12
     - _HeightMaskPatternStrength: 1
     - _HeightMaskScale: 1.62
     - _HeightMaskWorldSpace: 1
     - _HeightWorldOffset: 45.41
-    - _HeightWorldScale: 0.1
+    - _HeightWorldScale: 0.43
     - _IndirectToggle: 1
     - _Keyword0: 0
     - _LightFresnel: 1
@@ -171,6 +171,8 @@ Material:
     - _ThicknessAlbedoAmount: 1
     - _ToggleCustomLightFalloff: 1
     - _WorkflowMode: 1
+    - _WorldGradientOffset: -40.9
+    - _WorldGradientScale: 25
     - _Wrapping: 1
     - _ZWrite: 1
     - __dirty: 0
