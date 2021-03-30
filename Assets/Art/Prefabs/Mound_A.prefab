@@ -9,8 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6309564027402892363}
-  - component: {fileID: 6935482510275099630}
-  - component: {fileID: 5177802363489046308}
   m_Layer: 0
   m_Name: Mound_A
   m_TagString: Untagged
@@ -33,55 +31,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &6935482510275099630
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6691156768558345969}
-  m_Mesh: {fileID: -1581107149716493022, guid: 106a3819f15325d4ebd48d6770dd71d2, type: 3}
---- !u!23 &5177802363489046308
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6691156768558345969}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 8903af81a7e760f41b825dfecf8cf183, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1001 &3384159521891462581
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -176,18 +125,58 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8903af81a7e760f41b825dfecf8cf183, type: 2}
     - target: {fileID: 4742473837712756890, guid: 106a3819f15325d4ebd48d6770dd71d2,
         type: 3}
+      propertyPath: m_Size
+      value: 17.67875
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 106a3819f15325d4ebd48d6770dd71d2,
+        type: 3}
+      propertyPath: m_FadeMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 106a3819f15325d4ebd48d6770dd71d2,
+        type: 3}
+      propertyPath: m_AnimateCrossFading
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 106a3819f15325d4ebd48d6770dd71d2,
+        type: 3}
+      propertyPath: m_LocalReferencePoint.y
+      value: 5.2287655
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 106a3819f15325d4ebd48d6770dd71d2,
+        type: 3}
+      propertyPath: m_LocalReferencePoint.z
+      value: -0.8291874
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 106a3819f15325d4ebd48d6770dd71d2,
+        type: 3}
+      propertyPath: m_LODs.Array.data[0].fadeTransitionWidth
+      value: 0.224
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 106a3819f15325d4ebd48d6770dd71d2,
+        type: 3}
+      propertyPath: m_LODs.Array.data[1].fadeTransitionWidth
+      value: 0.212
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 106a3819f15325d4ebd48d6770dd71d2,
+        type: 3}
+      propertyPath: m_LODs.Array.data[2].fadeTransitionWidth
+      value: 0.218
+      objectReference: {fileID: 0}
+    - target: {fileID: 4742473837712756890, guid: 106a3819f15325d4ebd48d6770dd71d2,
+        type: 3}
       propertyPath: m_LODs.Array.data[0].screenRelativeHeight
-      value: 0.498173
+      value: 0.764625
       objectReference: {fileID: 0}
     - target: {fileID: 4742473837712756890, guid: 106a3819f15325d4ebd48d6770dd71d2,
         type: 3}
       propertyPath: m_LODs.Array.data[1].screenRelativeHeight
-      value: 0.19279136
+      value: 0.55743134
       objectReference: {fileID: 0}
     - target: {fileID: 4742473837712756890, guid: 106a3819f15325d4ebd48d6770dd71d2,
         type: 3}
       propertyPath: m_LODs.Array.data[2].screenRelativeHeight
-      value: 0.01974226
+      value: 0.42079377
       objectReference: {fileID: 0}
     - target: {fileID: 5635063792222027179, guid: 106a3819f15325d4ebd48d6770dd71d2,
         type: 3}
