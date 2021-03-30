@@ -61,6 +61,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 95fb59503f3acf040b94dae940963d73, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _DitherNoise:
+        m_Texture: {fileID: 2800000, guid: c5dfece29a2a5f4498d0616dcad73f65, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -129,6 +133,7 @@ Material:
     - _CustomLightFalloffToggle: 1
     - _Cutoff: 0.5
     - _DstBlend: 0
+    - _EdgeLength: 15
     - _EnvironmentReflections: 1
     - _Float0: 100
     - _Float1: -18.67
