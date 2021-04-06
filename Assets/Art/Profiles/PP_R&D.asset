@@ -27,7 +27,7 @@ MonoBehaviour:
     value: {x: 0.5, y: 0.5}
   intensity:
     overrideState: 1
-    value: 0.25
+    value: 0.15
   smoothness:
     overrideState: 1
     value: 1
@@ -1489,7 +1489,7 @@ MonoBehaviour:
     value: 1
   filtering:
     overrideState: 1
-    value: {x: 45.209255, y: 90.20924}
+    value: {x: 19.973204, y: 85.75583}
   minLuminance:
     overrideState: 1
     value: -5
