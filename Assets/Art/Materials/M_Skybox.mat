@@ -30,7 +30,7 @@ Material:
     m_Floats:
     - _Float0: 20
     - _Float1: -15.2
-    - _HorizonFalloff: 0.5
+    - _HorizonFalloff: 0.15
     - _SunAtmos: 0.643
     - _SunAtmosDensity: 0.95
     - _SunAtmosFalloff: 0.4
