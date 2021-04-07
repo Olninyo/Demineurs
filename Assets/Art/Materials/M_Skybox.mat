@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: M_Skybox
   m_Shader: {fileID: 4800000, guid: 83212e532cd11c247a1ab4b6b4f17f44, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: _USEENVIRONMENTGRADIENT_ON
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -28,17 +28,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _HorizonFalloff: 0.15
+    - _Float0: 20
+    - _Float1: -15.2
+    - _HorizonFalloff: 0.4
     - _SunAtmos: 0.643
-    - _SunAtmosDensity: 0.603
-    - _SunAtmosFalloff: 0.139
-    - _SunSize: 1
-    - _UseEnvironmentGradient: 0
+    - _SunAtmosDensity: 0.916
+    - _SunAtmosFalloff: 0.05
+    - _SunSize: 0.729
+    - _UseEnvironmentGradient: 1
     - __dirty: 0
     m_Colors:
-    - _HorizonColour: {r: 0.13907143, g: 0.363, b: 0.10135714, a: 0}
-    - _NadirColour: {r: 0.26415092, g: 0.15843013, b: 0.046101812, a: 1}
-    - _SunColour: {r: 23.968628, g: 17.819609, b: 11.043138, a: 0}
+    - _HorizonColour: {r: 0.168168, g: 0.4069927, b: 0.53900003, a: 0}
+    - _NadirColour: {r: 0.101960786, g: 0.031372555, b: 0.09429001, a: 1}
+    - _SunColour: {r: 1.4980392, g: 1.1137255, b: 0.6901961, a: 0}
     - _SunDirection: {r: 0.5, g: 0.5, b: 0.5, a: 0}
-    - _ZenithColour: {r: 0.02341772, g: 0.035443038, b: 0.05, a: 0}
+    - _ZenithColour: {r: 0.013, g: 0.029277312, b: 0.050980393, a: 0}
   m_BuildTextureStacks: []
