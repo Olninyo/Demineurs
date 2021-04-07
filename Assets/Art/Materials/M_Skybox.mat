@@ -46,9 +46,9 @@ Material:
     - _UseEnvironmentGradient: 0
     - __dirty: 0
     m_Colors:
-    - _HorizonColour: {r: 0.39797887, g: 0.9477871, b: 0.15647426, a: 0}
-    - _NadirColour: {r: 0.029592372, g: 0.066037714, b: 0.059754033, a: 1}
+    - _HorizonColour: {r: 0.4556931, g: 0.7, b: 0.35, a: 0}
+    - _NadirColour: {r: 0.053333335, g: 0.06666667, b: 0.06370371, a: 1}
     - _SunColour: {r: 2.9960785, g: 2.227451, b: 1.3803922, a: 0}
     - _SunDirection: {r: 0.5, g: 0.5, b: 0.5, a: 0}
-    - _ZenithColour: {r: 0.013, g: 0.029277312, b: 0.050980393, a: 0}
+    - _ZenithColour: {r: 0.04588235, g: 0.04792157, b: 0.050980393, a: 0}
   m_BuildTextureStacks: []
