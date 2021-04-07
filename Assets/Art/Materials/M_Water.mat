@@ -90,9 +90,9 @@ Material:
     - _wavestrength: 0.025
     m_Colors:
     - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
-    - _deepcolour: {r: 0.15036489, g: 0.2924528, b: 0.15036489, a: 1}
+    - _deepcolour: {r: 0.101333335, g: 0.2, b: 0.101333335, a: 1}
     - _foamcolour: {r: 0.57070065, g: 0.8, b: 0.57070065, a: 1}
     - _foamtiling: {r: 1, g: 1, b: 1, a: 1}
-    - _shallowcolour: {r: 0.67850006, g: 0.6981132, b: 0.43796724, a: 1}
+    - _shallowcolour: {r: 0.49980778, g: 0.50980395, b: 0.38235295, a: 1}
     - _shorecolour: {r: 0.92619735, g: 1, b: 0.4669811, a: 1}
   m_BuildTextureStacks: []

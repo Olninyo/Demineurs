@@ -28,12 +28,16 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _HorizonFalloff: 0.42
+    - _HorizonFalloff: 0.25
+    - _SunAtmos: 0.643
+    - _SunAtmosDensity: 1
+    - _SunAtmosFalloff: 0.239
     - _SunSize: 0.4371
+    - _UseEnvironmentGradient: 0
     - __dirty: 0
     m_Colors:
-    - _HorizonColour: {r: 0.284, g: 0.15410852, b: 0.15410852, a: 0}
-    - _NadirColour: {r: 0.049119946, g: 0.050980393, b: 0.015686277, a: 0}
-    - _SunColour: {r: 2, g: 1.5078535, b: 1.0052357, a: 0}
-    - _ZenithColour: {r: 0.57849765, g: 0.76017416, b: 0.98113203, a: 0}
+    - _HorizonColour: {r: 0.23028031, g: 0.6037736, b: 0.16803133, a: 0}
+    - _NadirColour: {r: 0.26415092, g: 0.15843013, b: 0.046101812, a: 1}
+    - _SunColour: {r: 5.992157, g: 4.611765, b: 3.0745099, a: 0}
+    - _ZenithColour: {r: 0.14538093, g: 0.21814539, b: 0.31132078, a: 0}
   m_BuildTextureStacks: []
