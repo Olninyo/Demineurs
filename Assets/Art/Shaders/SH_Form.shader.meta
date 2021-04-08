@@ -3,6 +3,7 @@ guid: 1c59923a399a8a54eaca1be3e4557a78
 ShaderImporter:
   externalObjects: {}
   defaultTextures:
+  - _DitherNoise: {fileID: 2800000, guid: c5dfece29a2a5f4498d0616dcad73f65, type: 3}
   - _DetailMask: {fileID: 2800000, guid: 95fb59503f3acf040b94dae940963d73, type: 3}
   - _Albedo: {fileID: 2800000, guid: 4b47542f94d80e84fbf0f9cda3727ed6, type: 3}
   nonModifiableTextures: []
