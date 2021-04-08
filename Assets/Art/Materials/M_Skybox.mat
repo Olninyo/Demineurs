@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: M_Skybox
   m_Shader: {fileID: 4800000, guid: 83212e532cd11c247a1ab4b6b4f17f44, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: _USEENVIRONMENTGRADIENT_ON
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -38,12 +38,12 @@ Material:
     m_Floats:
     - _Float0: 20
     - _Float1: -15.2
-    - _HorizonFalloff: 0.15
+    - _HorizonFalloff: 0.05
     - _SunAtmos: 0.643
-    - _SunAtmosDensity: 0.95
-    - _SunAtmosFalloff: 0.59
+    - _SunAtmosDensity: 0.99
+    - _SunAtmosFalloff: 0.3
     - _SunSize: 0.3
-    - _UseEnvironmentGradient: 0
+    - _UseEnvironmentGradient: 1
     - __dirty: 0
     m_Colors:
     - _HorizonColour: {r: 0.4556931, g: 0.7, b: 0.35, a: 0}
