@@ -24,7 +24,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: 1c59923a399a8a54eaca1be3e4557a78, type: 3}
   m_ShaderKeywords: _ALBEDOTOGGLE_ON _CUSTOMLIGHTFALLOFFTOGGLE_ON _FRESNELTOGGLE_ON
     _HEIGHTMASKWORLDSPACE_ON _INDIRECTTOGGLE_ON _LIGHTINGTOGGLE_ON _REFLECTIONTOGGLE_ON
-  m_LightmapFlags: 4
+  m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
