@@ -59,7 +59,7 @@ Material:
     - _bluramount: 0.5
     - _blurfalloff: 1
     - _bluroffset: -0.86
-    - _displacementstrength: 0.1
+    - _displacementstrength: 0.01
     - _foamdistance: 1.1
     - _foamnoiseamount: 1
     - _foampower: 0
@@ -85,7 +85,7 @@ Material:
     - _speed: 0.2
     - _waterdepth: 50
     - _waterdepthfalloff: 10
-    - _wavenormalstrength: 1
+    - _wavenormalstrength: 0.25
     - _wavenormaltile: 2
     - _wavestrength: 0.025
     m_Colors:
