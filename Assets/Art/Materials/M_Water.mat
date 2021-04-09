@@ -56,7 +56,7 @@ Material:
     - _ToggleSwitch0: 1
     - _UNITY_PASS_SHADOWCASTER: 1
     - __dirty: 0
-    - _bluramount: 0.5
+    - _bluramount: 1
     - _blurfalloff: 1
     - _bluroffset: -0.86
     - _displacementstrength: 0.01
@@ -77,8 +77,8 @@ Material:
     - _refractionopacity: 0
     - _refractionopacity1: 1
     - _refractiontint: 1
-    - _scatteringdepth: 15
-    - _scatteringfalloff: 5
+    - _scatteringdepth: 47.4
+    - _scatteringfalloff: 10
     - _shallowsopacity: 0
     - _shoreopacity: 0
     - _shoretilingY: 0.1
