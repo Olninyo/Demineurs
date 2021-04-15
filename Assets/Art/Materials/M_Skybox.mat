@@ -44,7 +44,7 @@ Material:
     - _Float1: -15.2
     - _HorizonFalloff: 0.25
     - _SunAtmos: 0.643
-    - _SunAtmosDensity: 0.85
+    - _SunAtmosDensity: 0.75
     - _SunAtmosFalloff: 0.3
     - _SunSize: 0.3
     - _UseEnvironmentGradient: 0
@@ -52,7 +52,7 @@ Material:
     m_Colors:
     - _HorizonColour: {r: 0.3830799, g: 0.44313726, b: 0.22745098, a: 0}
     - _NadirColour: {r: 0.06790674, g: 0.13207549, b: 0.13207549, a: 1}
-    - _SunColour: {r: 47.937256, g: 35.639217, b: 22.086275, a: 0}
+    - _SunColour: {r: 191.74902, g: 142.55687, b: 88.3451, a: 0}
     - _SunDirection: {r: 0.5, g: 0.5, b: 0.5, a: 0}
     - _ZenithColour: {r: 0.09329412, g: 0.09329412, b: 0.101960786, a: 0}
   m_BuildTextureStacks: []

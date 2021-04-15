@@ -59,7 +59,7 @@ Material:
     - _bluramount: 1
     - _blurfalloff: 1
     - _bluroffset: -0.86
-    - _displacementstrength: 0.01
+    - _displacementstrength: 0.025
     - _foamdistance: 1.1
     - _foamnoiseamount: 1
     - _foampower: 0
