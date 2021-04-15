@@ -24,7 +24,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: 1c59923a399a8a54eaca1be3e4557a78, type: 3}
   m_ShaderKeywords: _ALBEDOTOGGLE_ON _HEIGHTMASKWORLDSPACE_ON _INDIRECTTOGGLE_ON
     _LIGHTINGTOGGLE_ON _REFLECTIONTOGGLE_ON
-  m_LightmapFlags: 4
+  m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -122,6 +122,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _ASEOutlineWidth: 0.001
     - _AlbedoToggle: 1
     - _AlphaClip: 0
     - _Attenuation: 1
@@ -156,9 +157,9 @@ Material:
     - _HorizonFalloff: 0.5
     - _IndirectToggle: 1
     - _Keyword0: 0
-    - _LightFresnel: 1
+    - _LightFresnel: 0.5
     - _LightFresnelBias: -0.301
-    - _LightFresnelPower: 2
+    - _LightFresnelPower: 3
     - _LightingToggle: 1
     - _Metallic: 0
     - _OcclusionStrength: 1
@@ -182,7 +183,7 @@ Material:
     - _ToggleCustomLightFalloff: 1
     - _UseEnvironmentGradient: 1
     - _WorkflowMode: 1
-    - _WorldGradientOffset: -39.5
+    - _WorldGradientOffset: -30.2
     - _WorldGradientScale: 25
     - _Wrapping: 1
     - _ZWrite: 1
@@ -192,6 +193,7 @@ Material:
     - _lightwrapoffset: 0.25
     - _lightwrapscale: 1
     m_Colors:
+    - _ASEOutlineColor: {r: 0, g: 0, b: 0, a: 0}
     - _AlbedoTint: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
@@ -200,6 +202,6 @@ Material:
     - _HorizonColour: {r: 0.5, g: 0.5, b: 0.5, a: 0}
     - _NadirColour: {r: 0.3019608, g: 0.3019608, b: 0.3019608, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _SunColour: {r: 2, g: 1.47451, b: 0.972549, a: 0}
+    - _SunColour: {r: 2.9960785, g: 1.9987918, b: 0.7789804, a: 0}
     - _ZenithColour: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
