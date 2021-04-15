@@ -11,7 +11,7 @@ Material:
   m_Shader: {fileID: 4800000, guid: 59aabcf21a165f842bdc24eb295ae017, type: 3}
   m_ShaderKeywords: _TOGGLESWITCH0_ON
   m_LightmapFlags: 0
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -47,6 +47,7 @@ Material:
     - _ChromaticAberration: 0.1
     - _EdgeLength: 15
     - _Gloss: 1
+    - _Keyword0: 0
     - _Refraction: -0.2
     - _TessMax: 120
     - _TessMaxDisp: 25
@@ -56,7 +57,7 @@ Material:
     - _ToggleSwitch0: 1
     - _UNITY_PASS_SHADOWCASTER: 1
     - __dirty: 0
-    - _bluramount: 1
+    - _bluramount: 0.5
     - _blurfalloff: 1
     - _bluroffset: -0.86
     - _displacementstrength: 0.025
@@ -85,14 +86,14 @@ Material:
     - _speed: 0.2
     - _waterdepth: 50
     - _waterdepthfalloff: 10
-    - _wavenormalstrength: 0.25
-    - _wavenormaltile: 2
+    - _wavenormalstrength: 0.507
+    - _wavenormaltile: 2.61
     - _wavestrength: 0.025
     m_Colors:
     - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
-    - _deepcolour: {r: 0.101333335, g: 0.2, b: 0.101333335, a: 1}
-    - _foamcolour: {r: 0.57070065, g: 0.8, b: 0.57070065, a: 1}
+    - _deepcolour: {r: 0.1013333, g: 0.19999996, b: 0.1013333, a: 1}
+    - _foamcolour: {r: 0.4342105, g: 0.6, b: 0.4342105, a: 1}
     - _foamtiling: {r: 1, g: 1, b: 1, a: 1}
-    - _shallowcolour: {r: 0.49980778, g: 0.50980395, b: 0.38235295, a: 1}
+    - _shallowcolour: {r: 0.49980766, g: 0.5098039, b: 0.38235292, a: 1}
     - _shorecolour: {r: 0.92619735, g: 1, b: 0.4669811, a: 1}
   m_BuildTextureStacks: []
