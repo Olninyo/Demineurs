@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: M_Flora
   m_Shader: {fileID: 4800000, guid: b830a05e1b2b1604d9713e2cd6d46562, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: _FRESNELGAMMA_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -38,10 +38,10 @@ Material:
     m_Floats:
     - _BillboardAmount: 1
     - _BillboardDistance: 1
-    - _BillboardInflate: 0.05
-    - _BillboardSize: 1
+    - _BillboardInflate: 0
+    - _BillboardSize: 0.194
     - _Cutoff: 0.5
-    - _FresnelGamma: 0
+    - _FresnelGamma: 1
     - __dirty: 0
     m_Colors:
     - _Vector0: {r: -0.13, g: 0.24, b: 0.17, a: 0}
