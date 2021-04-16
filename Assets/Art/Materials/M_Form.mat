@@ -183,7 +183,7 @@ Material:
     - _ToggleCustomLightFalloff: 1
     - _UseEnvironmentGradient: 1
     - _WorkflowMode: 1
-    - _WorldGradientOffset: -30.2
+    - _WorldGradientOffset: -39.19
     - _WorldGradientScale: 25
     - _Wrapping: 1
     - _ZWrite: 1
