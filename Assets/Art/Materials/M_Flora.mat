@@ -39,10 +39,11 @@ Material:
     - _BillboardAmount: 1
     - _BillboardDistance: 1
     - _BillboardInflate: 0
-    - _BillboardSize: 0.194
+    - _BillboardSize: 0.2
     - _Cutoff: 0.5
     - _FresnelGamma: 1
     - __dirty: 0
     m_Colors:
+    - _AlbedoColour: {r: 0.44339612, g: 0.41644958, b: 0.22378948, a: 0}
     - _Vector0: {r: -0.13, g: 0.24, b: 0.17, a: 0}
   m_BuildTextureStacks: []
