@@ -22,7 +22,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: M_Form
   m_Shader: {fileID: 4800000, guid: 1c59923a399a8a54eaca1be3e4557a78, type: 3}
-  m_ShaderKeywords: _ALBEDOTOGGLE_ON _HEIGHTMASKWORLDSPACE_ON _INDIRECTTOGGLE_ON
+  m_ShaderKeywords: _ALBEDOTOGGLE_ON _FRESNELTOGGLE_ON _HEIGHTMASKWORLDSPACE_ON _INDIRECTTOGGLE_ON
     _LIGHTINGTOGGLE_ON _REFLECTIONTOGGLE_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -138,7 +138,7 @@ Material:
     - _EnvironmentReflections: 1
     - _Float0: 100
     - _Float1: -18.67
-    - _FresnelToggle: 0
+    - _FresnelToggle: 1
     - _Gloss: 0
     - _GlossMapScale: 0
     - _Glossiness: 0
@@ -198,7 +198,7 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _HeightMaskColour: {r: 0.5499999, g: 0.51333314, b: 0.32999992, a: 0}
+    - _HeightMaskColour: {r: 0.5499999, g: 0.5133326, b: 0.32999957, a: 0}
     - _HorizonColour: {r: 0.5, g: 0.5, b: 0.5, a: 0}
     - _NadirColour: {r: 0.3019608, g: 0.3019608, b: 0.3019608, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
